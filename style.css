@@ -177,9 +177,9 @@ body{
   width:100%;
   aspect-ratio:2/3;
   border-radius:var(--radius);
-  background:url("developer-1.png") center/cover;
+  background:url("developer--1.jpeg") center/cover;
   box-shadow:var(--shadow);
-  /* scale: 0.8; */
+  scale: 0.8;
 }
 .timeline{
   list-style:none;
