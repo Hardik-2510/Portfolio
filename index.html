@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hardik V Patel · Portfolio</title>
+
+    <!-- Poppins for headings, Inter for body text -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Inter:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+
+    <meta name="color-scheme" content="light dark" />
+</head>
+
+<body>
+    <!-- ═════ HEADER / NAV ═════ -->
+    <header class="header glass" role="banner">
+        <a href="#hero" class="logo">Hardik<span>.</span></a>
+
+        <button id="burger" class="burger" aria-label="Open menu" aria-expanded="false">
+            <span></span><span></span><span></span>
+        </button>
+
+        <nav id="nav" class="nav" role="navigation">
+            <ul style="padding-left: 20px;">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li>
+                    <button id="themeBtn" class="theme-btn" aria-label="Toggle dark mode" title="Switch to dark mode">
+                        🌙
+                    </button>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- ═════ MAIN ═════ -->
+    <main>
+
+        <!-- Hero -->
+        <section id="hero" class="hero full" data-animate>
+            <div class="hero__content">
+                <h1 class="hero__title">
+                    Hi, I’m <span>Hardik Patel</span>
+                </h1>
+
+                <p class="hero__subtitle">
+                    Detail‑oriented web developer crafting <br />
+                    high‑quality, responsive experiences.
+                </p>
+
+                <a href="#projects" class="btn btn--primary">Explore Work</a>
+            </div>
+
+            <!-- portrait wrapped in a square frame -->
+            <div class="hero__img-wrap">
+                <img src="tech2.gif" id="developer-back" alt="Portrait of Hardik Patel" class="hero__img"
+                    loading="lazy" />
+                <img src="developer.jpg" id="developer" alt="" class="hero__img" loading="lazy">
+            </div>
+        </section>
+
+
+        <!-- About -->
+        <section id="about" class="section" data-animate>
+            <div class="wrap two-col">
+                <div class="about__img"></div>
+                <div>
+                    <h2 class="section__title">About Me</h2>
+                    <p>
+                        I’m an aspiring developer pursuing a B.Tech in Computer Engineering at
+                        <strong>Uka Tarsadia University</strong>. I work with
+                        HTML, CSS, JavaScript, ReactJS, Java, and more—
+                        and I’m passionate about intuitive UI/UX design.
+                    </p>
+                    <h3>Education</h3>
+                    <ul class="timeline">
+                        <li><span>2023 — Present</span>B.Tech (Computer), UTU</li>
+                        <li><span>2021 — 2023</span>11<sup>th</sup> - 12<sup>th</sup> Science, Sharda Science Academy
+                        </li>
+                        <li><span>2011 — 2021</span>1<sup>st</sup> – 10<sup>th</sup> Shree Sharda Vidhya Mandir</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section id="skills" class="section alt" data-animate>
+            <h2 class="section__title center">Skills</h2>
+            <ul class="skill-list">
+                <li>HTML & CSS</li>
+                <li>JavaScript</li>
+                <li>ReactJS</li>
+                <li>C / C++</li>
+                <li>Java</li>
+                <li>Python</li>
+                <li>Visual Basic</li>
+                <li>.NetFramework</li>
+                <li>Git & GitHub</li>
+                <li>UI/UX · Figma</li>
+            </ul>
+        </section>
+
+        <!-- Projects -->
+        <section id="projects" class="section" data-animate>
+            <h2 class="section__title center">Projects</h2>
+            <div class="cards">
+                <article class="card">
+                    <h3>CS‑IT Quiz App</h3>
+                    <p class="stack">HTML · CSS · JS</p>
+                    <p>Choose subject and question count to test your knowledge.</p>
+                    <a href="https://cs-it-quiz.pages.dev" target="_blank">Demo ↗</a>
+                </article>
+                <article class="card">
+                    <h3>Portfolio Site</h3>
+                    <p class="stack">HTML · CSS · JS</p>
+                    <p>Showcases my projects, skills, and contact info in one place.</p>
+                    <a href="#hero" target="_blank">Demo ↗</a>
+                </article>
+                <article class="card">
+                    <h3>Pizza Billing Software</h3>
+                    <p class="stack">VB.NET</p>
+                    <p>Create orders, choose toppings, print detailed bills.</p>
+                    <a href="https://github.com/Hardik-2510/MY-SOFTWARE/blob/main/PIZZA_BILL_SETUP.msi"
+                        target="_blank">Download ↗</a>
+                </article>
+                <article class="card">
+                    <h3>Age Calculator</h3>
+                    <p class="stack">VB.NET</p>
+                    <p>Enter DOB, get your exact age instantly.</p>
+                    <a href="https://github.com/Hardik-2510/MY-SOFTWARE/blob/main/Age-Calculator-Setup.msi"
+                        target="_blank">Download ↗</a>
+                </article>
+                <article class="card">
+                    <h3>Recipe Finder</h3>
+                    <p class="stack">HTML · CSS · JS</p>
+                    <p>Recipe Finding By Name & Get Ingridient , Instruction & Youtube Link</p>
+                    <a href="https://recipe-finder-by-hardik.pages.dev/" target="_blank">Demo ↗</a>
+                </article>
+                <article class="card">
+                    <h3>Math Hero</h3>
+                    <p class="stack">C Language</p>
+                    <p>Maths Calculation Like Interest & Diffrent Shapes Area finding</p>
+                    <a href="https://github.com/Hardik-2510/BASICS-OF-CODING-C-LANGUAGE/blob/main/Mega.c"
+                        target="_blank">Download ↗</a>
+                </article>
+                <article class="card">
+                    <h3>Stopwatch</h3>
+                    <p class="stack">ReactJS · CSS</p>
+                    <p>Function of Stopwatch : Start | Stop | Reset | Lap</p>
+                    <a href="https://stopwatch-react.pages.dev/" target="_blank">Demo ↗</a>
+                </article>
+                <article class="card">
+                    <h3>Diwali Wish</h3>
+                    <p class="stack">HTML · CSS · JS</p>
+                    <p>Diwali Wishing | Wish Diwali By Your Name | Generate Forward Link</p>
+                    <a href="https://diwali-wishes.pages.dev/?recipient=to+you" target="_blank">Demo ↗</a>
+                </article>
+            </div>
+        </section>
+
+        <!-- Achievements -->
+        <section id="achievements" class="section alt" data-animate>
+            <h2 class="section__title center">Achievements</h2>
+            <ul class="achievements">
+                <li>🥇 1<sup>st</sup> Place — Web War · Technokruti @ SNPIT</li>
+                <li>🥈 Runner‑Up — Compile Clash · Technokruti @ SNPIT</li>
+                <li>Front‑End & Java certificates · Great Learning Academy</li>
+                <li>
+                    <h2>&nbsp;&nbsp;<a
+                        target="_blank" 
+                        href="https://highlight-of-hardik.pages.dev" 
+                        style="text-decoration: none;color:white;"> 👉🏼
+                            Highlight of Me 👈🏼</a></h2>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact" class="section" data-animate>
+            <h2 class="section__title center">Contact Me</h2>
+            <form id="contactForm" class="contact">
+                <input type="text" id="name" name="name" placeholder="Name" required />
+                <textarea name="msg" id="textMsg" rows="4" placeholder="Message" required></textarea>
+                <button type="submit" id="submitText" class="btn btn--primary">Send</button>
+            </form>
+            <p class="center socials">
+                <a href="mailto:hardik25patel05@gmail.com">hardik25patel05@gmail.com</a> ·
+                <a href="https://www.linkedin.com/in/hackyboy/" target="_blank">LinkedIn</a> ·
+                <a href="https://github.com/Hardik-2510/" target="_blank">GitHub</a> ·
+                <a href="tel:+916354067037">+91 63540 67037</a>
+            </p>
+        </section>
+
+    </main>
+
+    <!-- ═════ FOOTER ═════ -->
+    <footer class="footer">© 2025 Hardik V Patel | All Right Reserved </footer>
+
+    <script src="script.js" defer></script>
+</body>
+
+</html>
